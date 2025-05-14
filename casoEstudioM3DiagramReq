@@ -11,7 +11,7 @@
             --orange-light: #FFD8B8;
             --gray-dark: #333333;
             --gray-medium: #666666;
-
+            --gray-light: #EEEEEE;
         }
         
         * {
