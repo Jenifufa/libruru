@@ -326,16 +326,16 @@
                 </div>
                 <div class="class-methods">
                     <p>Tienda(dineroInicial: float)</p>
-                    <p>registrarLibro(ISBN: str, titulo: str, precioCompra: float, precioVenta: float) : boolean</p>
-                    <p>eliminarLibro(ISBN: str) : boolean</p>
-                    <p>buscarPorTitulo(titulo: str) : List&lt;Libro&gt;</p>
+                    <p>registrarLibro(ISBN: str, titulo: str, precioCompra: float, precioVenta: float) : voidn</p>
+                    <p>eliminarLibro(ISBN: str) : void</p>
+                    <p>buscarPorTitulo(titulo: str) : Libro</p>
                     <p>buscarPorISBN(ISBN: str) : Libro</p>
-                    <p>abastecerLibro(ISBN: str, cantidad: int) : boolean</p>
-                    <p>venderLibro(ISBN: str, cantidad: int) : boolean</p>
+                    <p>abastecerLibro(ISBN: str, cantidad: int) : void</p>
+                    <p>venderLibro(ISBN: str, cantidad: int) : void</p>
                     <p>contarTransaccionesAbastecimiento(ISBN: str) : int</p>
                     <p>obtenerLibroMasCostoro() : Libro</p>
                     <p>obtenerLibroMasBarato() : Libro</p>
-                    <p>ontenerLibroMasVendido() : Libro</p>
+                    <p>obtenerLibroMasVendido() : Libro</p>
                     <p>consultarSaldoEnCaja() : float</p>
                 </div>
             </div>
