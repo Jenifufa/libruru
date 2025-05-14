@@ -326,21 +326,21 @@
                 </div>
                 <div class="class-methods">
                     <p>Tienda(dineroInicial: float)</p>
-                    <p>registrarLibro(ISBN: str, titulo: str, precioCompra: float, precioVenta: float) : voidn</p>
+                    <p>registrarLibro(ISBN: str, titulo: str, precioCompra: float, precioVenta: float) : void</p>
                     <p>eliminarLibro(ISBN: str) : void</p>
-                    <p>buscarPorTitulo(titulo: str) : Libro</p>
+                    <p>buscarPorTitulo(titulo: str) : List&lt;Libro&gt;</p>
                     <p>buscarPorISBN(ISBN: str) : Libro</p>
                     <p>abastecerLibro(ISBN: str, cantidad: int) : void</p>
                     <p>venderLibro(ISBN: str, cantidad: int) : void</p>
                     <p>contarTransaccionesAbastecimiento(ISBN: str) : int</p>
                     <p>obtenerLibroMasCostoro() : Libro</p>
                     <p>obtenerLibroMasBarato() : Libro</p>
-                    <p>obtenerLibroMasVendido() : Libro</p>
+                    <p>ontenerLibroMasVendido() : Libro</p>
                     <p>consultarSaldoEnCaja() : float</p>
                 </div>
             </div>
             
-            <div class="relationship">↓ contiene</div>
+            <div class="relationship">↓ contiene ↓</div>
             
             <div class="class-box">
                 <div class="class-name">Libro</div>
@@ -359,7 +359,7 @@
                 </div>
             </div>
             
-            <div class="relationship">↓ contiene</div>
+            <div class="relationship">↓ contiene ↓</div>
             
             <div class="class-box">
                 <div class="class-name">Transaccion</div>
@@ -374,7 +374,7 @@
                 </div>
             </div>
             
-            <div class="relationship">↓ usa</div>
+            <div class="relationship">↓ usa ↓</div>
             
             <div class="class-box">
                 <div class="class-name">
